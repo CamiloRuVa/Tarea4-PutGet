@@ -51,16 +51,6 @@ const hacerFetch = () => {
       .then(respuesta => {console.log(respuesta)});
 };
 
-const Item = ({ title }) => (
-  <View style={styles.item}>
-    <Text style={styles.title}>{title}</Text>
-  </View>
-);
-
-const renderItem = ({ item }) => (
-  <Item title={item.name} />
-);
-
   return (
     <View>
       <Text>Formulario</Text>
